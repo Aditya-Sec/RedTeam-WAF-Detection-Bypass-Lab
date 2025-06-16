@@ -1,0 +1,9 @@
+
+Target: http://192.168.1.110
+WAF Detected: ModSecurity
+Reason: Based on response headers and server behavior.
+Details:
+- Server: Apache/2.4.41 (Ubuntu)
+- X-Mod-Security: Enabled
+- Common signatures matched
+Scan Type: Active and Passive Fingerprinting
