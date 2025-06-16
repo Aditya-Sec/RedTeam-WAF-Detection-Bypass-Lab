@@ -1,0 +1,5 @@
+
+http://192.168.1.110 [200 OK] Country[RESERVED][ZZ], HTTPServer[Apache/2.4.29 (Ubuntu)], IP[192.168.1.110], 
+Meta-Author[Random Author], Meta-Generator[DVWA], PoweredBy[PHP/7.2.24], 
+Title[Damn Vulnerable Web Application (DVWA) - Login], X-Frame-Options[SAMEORIGIN], 
+X-XSS-Protection[1; mode=block], HTML5, PHP[7.2.24], Apache[2.4.29], Ubuntu, Cookies[PHPSESSID]
