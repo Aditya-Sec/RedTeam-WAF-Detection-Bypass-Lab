@@ -1,0 +1,14 @@
+
+# Nmap 7.94 scan initiated on 2025-06-16 15:50 IST
+Nmap scan report for 192.168.1.110
+Host is up (0.00042s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE    VERSION
+21/tcp   open  ftp        vsftpd 3.0.3
+22/tcp   open  ssh        OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http       Apache httpd 2.4.29 ((Ubuntu))
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  microsoft-ds Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap done: 1 IP address (1 host up) scanned in 4.85 seconds
