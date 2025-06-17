@@ -1,0 +1,24 @@
+
+Nuclei Web Vulnerability Scan Report
+Target: http://192.168.1.110
+Date: 2025-06-17
+
+Templates Used:
+- cves/2021/CVE-2021-41773.yaml
+- exposures/ssn-disclosure.yaml
+- misconfiguration/apache-http-config.yaml
+
+Results:
+[critical] Apache Path Traversal - CVE-2021-41773
+  - URL: http://192.168.1.110/cgi-bin/.%2e/.%2e/.%2e/.%2e/etc/passwd
+  - Template ID: cves/2021/CVE-2021-41773.yaml
+
+[medium] Apache Misconfiguration Detected
+  - URL: http://192.168.1.110
+  - Template ID: misconfiguration/apache-http-config.yaml
+
+[low] Possible Sensitive Data Exposure (SSN pattern)
+  - URL: http://192.168.1.110/test.txt
+  - Template ID: exposures/ssn-disclosure.yaml
+
+Scan Completed: 3 issues detected.
