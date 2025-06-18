@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OWASP ZAP Scan Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #c0392b; }
+        h2 { color: #2980b9; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>OWASP ZAP Scan Report</h1>
+    <h2>Target: http://192.168.1.110</h2>
+    <p><strong>Date:</strong> 2025-06-18</p>
+    <h2>Summary</h2>
+    <ul>
+        <li>Alerts: 5</li>
+        <li>High: 1</li>
+        <li>Medium: 2</li>
+        <li>Low: 2</li>
+    </ul>
+    <h2>Detailed Alerts</h2>
+    <table>
+        <tr><th>Risk Level</th><th>Alert</th><th>Description</th></tr>
+        <tr><td>High</td><td>SQL Injection</td><td>SQL error-based vulnerability found in login form.</td></tr>
+        <tr><td>Medium</td><td>Directory Browsing</td><td>Server allows directory listing of sensitive paths.</td></tr>
+        <tr><td>Medium</td><td>X-Frame-Options Header Not Set</td><td>Site is vulnerable to clickjacking attacks.</td></tr>
+        <tr><td>Low</td><td>Missing Security Headers</td><td>Strict-Transport-Security not enforced.</td></tr>
+        <tr><td>Low</td><td>Cookie Without HttpOnly Flag</td><td>Session cookie missing HttpOnly attribute.</td></tr>
+    </table>
+</body>
+</html>
