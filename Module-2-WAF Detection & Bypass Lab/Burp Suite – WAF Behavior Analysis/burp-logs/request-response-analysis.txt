@@ -1,0 +1,5 @@
+Summary of WAF Behavior (Burp Suite Repeater Tests):
+
+- XSS attempt with <script> blocked with 403 and header: X-Mod-Security: enabled
+- SQL injection blocked, server returned security rule triggered error
+- LFI attempts returned custom 404 page (handled silently)
