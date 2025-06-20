@@ -1,0 +1,5 @@
+GET /login?user=admin&pass=' OR '1'='1 HTTP/1.1
+Host: 192.168.1.110
+
+Response: 403 Forbidden
+ModSecurity detected SQL injection pattern.
