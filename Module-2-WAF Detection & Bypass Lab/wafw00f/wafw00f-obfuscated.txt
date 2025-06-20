@@ -1,0 +1,10 @@
+WAFW00F - Web Application Firewall Detection Tool
+
+Target: http://192.168.1.110/?id=%3Cscript%3E
+Using obfuscated payloads to evade detection...
+
+Result:
+- Detection inconclusive
+- Possible WAF present, but signature altered or obfuscated input bypassed rules
+
+Conclusion: WAF response changed; payload obfuscation partially successful.
