@@ -1,0 +1,6 @@
+Bypass Test Summary
+
+1. <script>alert(1)</script>         → Blocked (403)
+2. PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg== → Allowed (200) – Base64 bypass successful
+3. ' OR 1=1--                         → Blocked (403)
+4. JyBPUiAxPTEtLQ==                   → Allowed (200) – Base64 SQLi bypass successful
